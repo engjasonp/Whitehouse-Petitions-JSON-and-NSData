@@ -19,6 +19,7 @@ class MasterViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController!.navigationBar.translucent = false
         var urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
         
         if let url = NSURL(string: urlString) {
