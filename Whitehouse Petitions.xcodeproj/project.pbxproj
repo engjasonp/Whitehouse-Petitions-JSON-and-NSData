@@ -14,6 +14,7 @@
 		CAF7BE5B1B69AE8900F8D043 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF7BE5A1B69AE8900F8D043 /* Images.xcassets */; };
 		CAF7BE5E1B69AE8900F8D043 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF7BE5C1B69AE8900F8D043 /* LaunchScreen.xib */; };
 		CAF7BE6A1B69AE8900F8D043 /* Whitehouse_PetitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF7BE691B69AE8900F8D043 /* Whitehouse_PetitionsTests.swift */; };
+		CAF7BE741B69B94E00F8D043 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF7BE731B69B94E00F8D043 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		CAF7BE631B69AE8900F8D043 /* Whitehouse PetitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whitehouse PetitionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF7BE681B69AE8900F8D043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAF7BE691B69AE8900F8D043 /* Whitehouse_PetitionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whitehouse_PetitionsTests.swift; sourceTree = "<group>"; };
+		CAF7BE731B69B94E00F8D043 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				CAF7BE511B69AE8900F8D043 /* AppDelegate.swift */,
 				CAF7BE531B69AE8900F8D043 /* MasterViewController.swift */,
 				CAF7BE551B69AE8900F8D043 /* DetailViewController.swift */,
+				CAF7BE731B69B94E00F8D043 /* SwiftyJSON.swift */,
 				CAF7BE571B69AE8900F8D043 /* Main.storyboard */,
 				CAF7BE5A1B69AE8900F8D043 /* Images.xcassets */,
 				CAF7BE5C1B69AE8900F8D043 /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				CAF7BE561B69AE8900F8D043 /* DetailViewController.swift in Sources */,
 				CAF7BE541B69AE8900F8D043 /* MasterViewController.swift in Sources */,
 				CAF7BE521B69AE8900F8D043 /* AppDelegate.swift in Sources */,
+				CAF7BE741B69B94E00F8D043 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
